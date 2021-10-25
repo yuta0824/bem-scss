@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+// foundation
+//--------------------------
+@use "foundation";
+
+// layout
+//--------------------------
+@use "./layout/**/*.scss";
+
+// component
+//--------------------------
+@use "./component/**/*.scss";
+
+// common
+//--------------------------
+@use "./common/**/*.scss";
+
+// page
+//--------------------------
+@use './page/**/*.scss';
+
+// library
+//--------------------------
+@use './library/**/*.scss';
+
+// wordpress
+//--------------------------
+@use './wordpress/**/*.scss';
+
+// utility
+//--------------------------
+@use "./utility/**/*.scss";
+
