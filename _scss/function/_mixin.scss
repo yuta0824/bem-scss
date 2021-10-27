@@ -1,0 +1,17 @@
+@use './setting' as *;
+
+// メディアクエリー
+@mixin mq($breakpoint: sp) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+// ホバーアクション
+@mixin hover() {
+  @include mq('hover') {
+    &:hover {
+      opacity: $opacity;
+    }
+  }
+}
